@@ -7,6 +7,7 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <style type="text/css">
         body {
           background-color: #1D1D1D;
@@ -81,9 +82,39 @@
         body .entries .entry:nth-child(2n) .title.big:before {
           transform: translate(-8px, -50%);
         }
+        .float{
+          position:fixed;
+          width:60px;
+          height:60px;
+          bottom:40px;
+          right:40px;
+          background-color: #FFF;
+          color:#000;
+          border-radius:50px;
+          text-align:center;
+        }
+
+        .float:hover {
+          box-shadow: 2px 2px 3px #999;
+        }
+
+        .my-float{
+          margin-top:13px;
+          color: black;
+          font-size: xx-large;
+        }
       </style>
+      <script>
+        function goBack() {
+          window.history.back();
+        }
+      </script>
     </head>
     <body>
+      <a href="" class="float" onclick="goBack()">
+        <i class="fa fa-arrow-left my-float"></i>
+      </a>
+
       <div class="entries">
         <div class="entry">
           <div class="title">2011</div>
