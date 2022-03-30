@@ -1,157 +1,998 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-      <meta charset="utf-8">
-      <title>Experience</title>
-      <link rel="icon" type="image/png" href="https://github.com/amitrajitbose/amitrajitbose.github.io/blob/master/img/favicon.ico?raw=true"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <style type="text/css">
-        body {
-          background-color: #1D1D1D;
-          min-height: 100vh;
-          margin: 0;
-          font-family: 'Roboto', sans-serif;
-        }
-        body:before {
-          content: "";
-          position: fixed;
-          top: 0px;
-          left: 50%;
-          bottom: 0px;
-          transform: translateX(-50%);
-          width: 4px;
-          background-color: #fff;
-        }
-        body .entries {
-          width: calc(100% - 80px);
-          max-width: 800px;
-          margin: auto;
-          position: relative;
-          left: -5px;
-        }
-        body .entries .entry {
-          width: calc(50% - 80px);
-          float: left;
-          padding: 20px;
-          clear: both;
-          text-align: right;
-        }
-        body .entries .entry:not(:first-child) {
-          margin-top: -60px;
-        }
-        body .entries .entry .title {
-          font-size: 32px;
-          margin-bottom: 12px;
-          position: relative;
-          color: #fff;
-        }
-        body .entries .entry .title:before {
-          content: "";
-          position: absolute;
-          width: 8px;
-          height: 8px;
-          border: 4px solid #ffffff;
-          background-color: #1D1D1D;
-          border-radius: 100%;
-          top: 50%;
-          transform: translateY(-50%);
-          right: -73px;
-          z-index: 1000;
-        }
-        body .entries .entry .title.big:before {
-          width: 24px;
-          height: 24px;
-          transform: translate(8px, -50%);
-        }
-        body .entries .entry .body {
-          color: #aaa;
-        }
-        body .entries .entry .body p {
-          line-height: 1.4em;
-        }
-        body .entries .entry:nth-child(2n) {
-          text-align: left;
-          float: right;
-        }
-        body .entries .entry:nth-child(2n) .title:before {
-          left: -63px;
-        }
-        body .entries .entry:nth-child(2n) .title.big:before {
-          transform: translate(-8px, -50%);
-        }
-        .float{
-          position:fixed;
-          width:60px;
-          height:60px;
-          bottom:40px;
-          right:40px;
-          background-color: #FFF;
-          color:#000;
-          border-radius:50px;
-          text-align:center;
-        }
+<head>
+    <title>Amitrajit Bose - Experience</title>
+    <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196">
+    <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com" />
+    <meta property="og:type" content="website" />
+            <meta property="og:image" itemprop="image primaryImageOfPage" content="https://i.stack.imgur.com/54VlB.jpg" />
+            <meta name="twitter:title" property="og:title" itemprop="title name" content="Amitrajit Bose" />
+            <meta name="twitter:description" property="og:description" itemprop="description" content="Amitrajit Bose&#x27;s Developer Story" />
+            <meta property="og:url" content="https://stackoverflow.com/cv/amitrajitbose" />
 
-        .float:hover {
-          box-shadow: 2px 2px 3px #999;
-        }
+    <script id="webpack-public-path" type="text/uri-list">https://cdn.sstatic.net/</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script async src="https://cdn.sstatic.net/Js/third-party/npm/@stackoverflow/stacks/dist/js/stacks.min.js?v=243e16cb43cd"></script>
+    <script src="https://cdn.sstatic.net/Js/stub.en.js?v=98f0635c5e18"></script>
+    <script src="https://cdn.sstatic.net/Js/user.en.js?v=b3c977297943"></script>
+    <script src="https://cdn.sstatic.net/Js/story.en.js?v=b8d0b30bd90f"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=48511da708b8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=99a1b30d482b">
+        <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=becb9548f5f1">
 
-        .my-float{
-          margin-top:13px;
-          color: black;
-          font-size: xx-large;
-        }
-      </style>
-      <script>
-        function goBack() {
-          window.history.back();
-        }
-      </script>
-    </head>
-    <body>
-      <a href="#" class="float" onclick="goBack()">
-        <i class="fa fa-arrow-left my-float"></i>
-      </a>
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/shared/devstory/pdf.css?v=477f6f8ab7fd">
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/shared/devstory/pdf.css?v=477f6f8ab7fd" media="print">
+    
+    <script type="application/json" data-role="module-args" data-module-name="Shared/options.mod">{"options":{"locale":"en","serverTime":1648675579,"routeName":"UsersStory/CvChromeless","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"7043d525a598e54dedc41a87ae5e1cf887133486979409a39229f90449ee3a31","tid":"200ccaa0-883e-fd51-295e-56ac472ef3ad","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}</script>
+<script type="application/json" data-role="module-args" data-module-name="Shared/settings.mod">{"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}</script>
+<script>StackExchange.init();</script>
 
-      <div class="entries">
-        <div class="entry">
-          <div class="title">2013</div>
-          <div class="body">
-            <p>Got access to my first personal computer. My father bought an assembled unit for me and my sister. I was most excited about MS-Paint. Started learning my first language - Java.</p>
-          </div>
+    <script>
+        StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"6e17fb344f2c","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"976987b52b27","Js/full.en.js":"291c49c6a85d","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"c0cbc31e5702","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"4989aaaca9f5","Js/postCollections-transpiled.en.js":"8126e59701f9","Js/post-validation.en.js":"09f528ac466a","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"2c1a3ff4a308","Js/revisions.en.js":"839f528889ff","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"cce630fdf460","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+        StackExchange.using("gps", function () {
+            StackExchange.gps.init(false);
+        });
+    </script>
+</head>
+<body>
+
+    <div class="timeline-public print:d-none">
+        <div class="timeline-public-header">
+            <a class="logo" href="https://stackoverflow.com" title="Stack Overflow"></a>
+            <a href="#" class="s-btn s-btn__filled print-btn" onclick="window.print(); return false;">
+                <span class="icon-print"></span>
+                Print
+            </a>
         </div>
-        <div class="entry">
-          <div class="title">2015</div>
-          <div class="body">
-            <p>Created my first software project, it was a CLI based Hand-Cricket game that I wrote purely in Java. I remember sharing it with my friends and it was so fun to see them play with it.</p>
-          </div>
+        
+
+<div class="d-flex cv-story-wrapper mt24">
+    <div class="d-flex fd-column cv-story js-cv-story">
+            <header>
+        <div class="d-flex">
+            <div class="flex--item fl1">
+                <h1 class="mb2 fc-black-800 fs-headline1 anonymizable">
+                    Amitrajit Bose
+                </h1>
+
+                    <p class="fc-black-800 fs-body2 mb8 anonymizable">
+                        Software Engineer
+                    </p>
+            </div>
+            <div class="flex--item">
+                <img class="s-avatar s-avatar__64 anonymizable" title="Amitrajit Bose" src="https://i.stack.imgur.com/54VlB.jpg">
+            </div>
         </div>
-        <div class="entry">
-          <div class="title big">2016</div>
-          <div class="body">
-            <p>Completed high school with a perfect 100 in Computer Science and Physics in 12th boards, and an amazing aggregate of over 95%.</p>
-          </div>
+        <div class="d-flex gs12 mb32">
+            <div class="flex--item4">
+                    <div class="d-flex ai-center gs8 mb4">
+                        <div class="flex--item fc-black-400"><svg aria-hidden="true" class="svg-icon iconLocation" width="17" height="18" viewBox="0 0 17 18"><path d="M2 6.38C2 9.91 8.1 17.7 8.1 17.7c.22.29.58.29.8 0 0 0 6.1-7.8 6.1-11.32A6.44 6.44 0 0 0 8.5 0 6.44 6.44 0 0 0 2 6.38Zm9.25.12a2.75 2.75 0 1 1-5.5 0 2.75 2.75 0 0 1 5.5 0Z"/></svg></div>
+                        <div class="flex--item fc-black-700 fs-body1">India</div>
+                    </div>
+                    <div class="d-flex ai-center gs8 mb4">
+                        <div class="flex--item fc-black-400"><svg aria-hidden="true" class="svg-icon iconTwitter" width="18" height="18" viewBox="0 0 18 18"><path d="M17 4.04c-.59.26-1.22.44-1.88.52a3.3 3.3 0 0 0 1.44-1.82c-.64.37-1.34.64-2.09.79a3.28 3.28 0 0 0-5.6 2.99A9.3 9.3 0 0 1 2.12 3.1a3.28 3.28 0 0 0 1.02 4.38 3.28 3.28 0 0 1-1.49-.4v.03a3.29 3.29 0 0 0 2.64 3.22 3.34 3.34 0 0 1-1.48.06 3.29 3.29 0 0 0 3.07 2.28 6.58 6.58 0 0 1-4.85 1.36 9.33 9.33 0 0 0 5.04 1.47c6.04 0 9.34-5 9.34-9.33v-.42a6.63 6.63 0 0 0 1.63-1.7L17 4.04Z" fill="#2AA3EF"/></svg></div>
+                        <div class="flex--item fc-black-700 fs-body1 anonymizable">  
+                            <a href="https://twitter.com/AmitrajitBose" rel="nofollow me" target="_blank">AmitrajitBose</a>
+                        </div>
+                    </div>
+                    <div class="d-flex ai-center gs8 mb4">
+                        <div class="flex--item fc-black-400"><svg aria-hidden="true" class="svg-icon iconGitHub" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 0 0-2.53 15.59c.4.07.55-.17.55-.38l-.01-1.49c-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.42 7.42 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48l-.01 2.2c0 .21.15.46.55.38A8.01 8.01 0 0 0 9 1Z" fill="#010101"/></svg></div>
+                        <div class="flex--item fc-black-700 fs-body1">github.com/<a class="anonymizable" href="https://github.com/amitrajitbose" rel="nofollow me" target="_blank">amitrajitbose</a>
+                        </div>
+                    </div>
+                    <div class="d-flex ai-center gs8 mb4">
+                        <div class="flex--item fc-black-400"><svg aria-hidden="true" class="svg-icon iconLink" width="18" height="18" viewBox="0 0 18 18"><path d="M7.22 11.83a6 6 0 0 0 1.62.85l.61-1.8a4.1 4.1 0 1 1 4.04-.8l1.26 1.42a6 6 0 1 0-7.53.33Zm3.43-5.6a6 6 0 0 0-1.6-.87L8.4 7.15a4.1 4.1 0 1 1-4.05.73L3.12 6.43a6 6 0 1 0 7.53-.2Z"/></svg></div>
+                        <div class="flex--item fc-black-700 fs-body1"><a class="anonymizable" href="http://amitrajitbose.github.io" rel="nofollow" target="_blank">http://amitrajitbose.github.io</a></div>
+                    </div>
+                        <div class="d-flex ai-center gs8 mb4">
+                            <div class="flex--item fc-black-400"><svg aria-hidden="true" class="svg-icon iconLogoGlyphSm" width="19" height="22" viewBox="0 0 19 22"><path d="M16 20v-6h2v8H0v-8h2v6h14Z" fill="#C1BEBC"/><path d="m12.72 0-1.57 1.17L17 9.05l1.57-1.18L12.72 0ZM4 18h10v-2H4v2Zm11.4-7.08L7.86 4.64l1.25-1.5 7.54 6.28-1.25 1.5Zm-10-1.91 8.9 4.14.82-1.78-8.9-4.14L5.4 9Zm8.63 6.27-9.9-1.67.4-1.92 9.63 1.92-.13 1.67Z" fill="#F48024"/></svg></div>
+                            <div class="flex--item fc-black-700 fs-body1">
+                                Last seen on Stack Overflow over 30 days ago
+                            </div>
+                        </div>
+            </div>
+            
         </div>
-        <div class="entry">
-          <div class="title">2016, July</div>
-          <div class="body">
-            <p>Started off at university to study B.Tech in Computer Science and Engineering after a lot of skepticism for if Computer Science is a good fit for me. I was also into Physics a lot.</p>
-          </div>
+    </header>
+
+                <section class="mt0 mb24">
+            <header class="d-flex mb16">
+                <h2 class="fs-category has-border">Technologies</h2>
+            </header>
+
+                <article class="d-flex fd-column mb24">
+                    <div class="flex--item mb8">
+                        <div class="fc-black-800 fs-body2">Preferred technologies</div>
+                    </div>
+                    <div class="d-flex flex--item mb0 ff-row-wrap">
+                            <div class="post-tag">python-3.x</div>
+                            <div class="post-tag">python</div>
+                            <div class="post-tag">machine-learning</div>
+                            <div class="post-tag">nlp</div>
+                            <div class="post-tag">java</div>
+                            <div class="post-tag">algorithm</div>
+                            <div class="post-tag">software-design</div>
+                            <div class="post-tag">data-structures</div>
+                            <div class="post-tag">spring</div>
+                            <div class="post-tag">spring-boot</div>
+                            <div class="post-tag">apache-kafka</div>
+                            <div class="post-tag">apache-spark</div>
+                            <div class="post-tag">distributed-system</div>
+                    </div>
+                </article>
+
+            
+                <article class="d-flex fd-column mb24">
+                    <div class="flex--item mb8">
+                        <div class="fc-black-800 fs-body2">Non-preferred technologies</div>
+                    </div>
+                    <div class="d-flex flex--item mb0 ff-row-wrap">
+                            <div class="post-tag">ios</div>
+                            <div class="post-tag">android</div>
+                    </div>
+                </article>
+
+                <article class="d-flex fd-column">
+                    <div class="flex--item mb8">
+                        <div class="fc-black-800 fs-body2">Top Percentiles</div>
+                    </div>
+                    <div id="tags-summary" class="d-flex fd-column mb0">
+                        
+                        
+                        
+                                <div class="d-flex flex--item mb0">
+            <div class="d-flex ai-center flex--item2 gs4 mb0">
+                <div class="flex--item" title="Stack Overflow">
+                    <svg aria-hidden="true" class="native svg-icon iconLogoGlyphSm" width="19" height="22" viewBox="0 0 19 22"><path d="M16 20v-6h2v8H0v-8h2v6h14Z" fill="#C1BEBC"/><path d="m12.72 0-1.57 1.17L17 9.05l1.57-1.18L12.72 0ZM4 18h10v-2H4v2Zm11.4-7.08L7.86 4.64l1.25-1.5 7.54 6.28-1.25 1.5Zm-10-1.91 8.9 4.14.82-1.78-8.9-4.14L5.4 9Zm8.63 6.27-9.9-1.67.4-1.92 9.63 1.92-.13 1.67Z" fill="#F48024"/></svg>
+                </div>
+
+                <div class="flex--item">
+                    <strong class="fs-body1 fc-black-700">Top 20%</strong>
+                </div>
+            </div>
+
+            <div class="d-flex fw-wrap js-subsection">
+                    <span class="post-tag">python</span>
+            </div>
         </div>
-        <div class="entry">
-          <div class="title">2017, February</div>
-          <div class="body">
-            <p>Started doing competitive programming and got interested in algorithmic problem solving.</p>
-          </div>
+
+                        
+                    </div>
+                </article>
+        </section>
+
+                <section class="mt0 mb12">
+            <header class="d-flex mb16">
+                <h2 class="fs-category has-border">Intro Statement</h2>
+            </header>
+            <div class="fs-body2 w90"><p>I write novels with code. :)</p>
+</div>
+        </section>
+
+        
+    <section class="mt0 mb24" id="cv-Experience">
+        <header class="d-flex mb16">
+            <h2 class="fs-category has-border">
+Experience (7)            </h2>
+        </header>
+        <div class="">
+                <article class="d-flex gs16 first" id="Experience-10575835">
+
+                    <div class="flex--item">
+                                <div class="g-center cv-logo-blank js-logo-blank dno"><svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg></div>
+                            <div class="g-center cv-logo">
+                                <img src="https://crunchbase-production-res.cloudinary.com/image/upload/h_96/nx598tedbjr4p88v6aww" role="img" class="cv-image js-list-img anonymizable" title="Flipkart" onerror="handleListImageError(this)" data-list-id="49791"/>
+                            </div>
+                    </div>
+
+                    <div class="flex--item fl1 fd-column">
+                            <h3 class="flex--item mb2 fs-subheading fc-black-800">
+                                Software Engineer
+                            </h3>
+
+                                <h4 class="flex--item mb8 fs-body2 anonymizable"><a href="http://www.flipkart.com" rel="nofollow" title="Flipkart" target="_blank">Flipkart</a></h4>
+
+                            <div class="flex--item mb8">
+                                    <span class="fs-caption fc-black-700">Jul 2021 &#x2192; Current</span>
+                                        <span class="fs-caption fc-black-500">(10 months)</span>
+                            </div>
+
+                        <div class="mtn8 mb16">
+                                <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">java</span>
+            <span class="flex--item s-tag">hive</span>
+            <span class="flex--item s-tag">apache-spark</span>
+            <span class="flex--item s-tag">bigdata</span>
+            <span class="flex--item s-tag">mysql</span>
+            <span class="flex--item s-tag">backend</span>
+            <span class="flex--item s-tag">hadoop</span>
+            <span class="flex--item s-tag">hql</span>
+    </div>
+
+                        </div>
+
+                    </div>
+                </article>
+                <article class="d-flex gs16" id="Experience-8589709">
+
+                    <div class="flex--item">
+                                <div class="g-center cv-logo-blank js-logo-blank dno"><svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg></div>
+                            <div class="g-center cv-logo">
+                                <img src="https://crunchbase-production-res.cloudinary.com/image/upload/h_96/v1487988166/fnms3icotyufiecwguv8.png" role="img" class="cv-image js-list-img anonymizable" title="Rakuten" onerror="handleListImageError(this)" data-list-id="308804"/>
+                            </div>
+                    </div>
+
+                    <div class="flex--item fl1 fd-column">
+                            <h3 class="flex--item mb2 fs-subheading fc-black-800">
+                                Software Engineer
+                            </h3>
+
+                                <h4 class="flex--item mb8 fs-body2 anonymizable"><a href="http://global.rakuten.com/corp" rel="nofollow" title="Rakuten" target="_blank">Rakuten</a></h4>
+
+                            <div class="flex--item mb8">
+                                    <span class="fs-caption fc-black-700">Jul 2020 &#x2192; Jun 2021</span>
+                                        <span class="fs-caption fc-black-500">(1 year)</span>
+                            </div>
+
+                        <div class="mtn8 mb16">
+                                <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">java</span>
+            <span class="flex--item s-tag">reactjs</span>
+            <span class="flex--item s-tag">spring-boot</span>
+            <span class="flex--item s-tag">spring-security</span>
+    </div>
+
+                        </div>
+
+                    </div>
+                </article>
+                <article class="d-flex gs16" id="Experience-7775241">
+
+                    <div class="flex--item">
+                                <div class="g-center cv-logo-blank js-logo-blank dno"><svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg></div>
+                            <div class="g-center cv-logo">
+                                <img src="https://crunchbase-production-res.cloudinary.com/image/upload/h_96/v1487988166/fnms3icotyufiecwguv8.png" role="img" class="cv-image js-list-img anonymizable" title="Rakuten" onerror="handleListImageError(this)" data-list-id="308804"/>
+                            </div>
+                    </div>
+
+                    <div class="flex--item fl1 fd-column">
+                            <h3 class="flex--item mb2 fs-subheading fc-black-800">
+                                Software Engineering Intern
+                            </h3>
+
+                                <h4 class="flex--item mb8 fs-body2 anonymizable"><a href="http://global.rakuten.com/corp" rel="nofollow" title="Rakuten" target="_blank">Rakuten</a></h4>
+
+                            <div class="flex--item mb8">
+                                    <span class="fs-caption fc-black-700">Jan 2020 &#x2192; Jun 2020</span>
+                                        <span class="fs-caption fc-black-500">(6 months)</span>
+                            </div>
+
+                        <div class="mtn8 mb16">
+                                <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">java</span>
+            <span class="flex--item s-tag">backend</span>
+            <span class="flex--item s-tag">elastic-stack</span>
+            <span class="flex--item s-tag">mysql</span>
+    </div>
+
+                        </div>
+
+                    </div>
+                </article>
+                <article class="d-flex gs16" id="Experience-10575851">
+
+                    <div class="flex--item">
+                                <div class="g-center cv-logo-blank js-logo-blank dno"><svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg></div>
+                            <div class="g-center cv-logo">
+                                <img src="https://crunchbase-production-res.cloudinary.com/image/upload/h_96/fa8nmvofinznny6rkwvf" role="img" class="cv-image js-list-img anonymizable" title="Google" onerror="handleListImageError(this)" data-list-id="23"/>
+                            </div>
+                    </div>
+
+                    <div class="flex--item fl1 fd-column">
+                            <h3 class="flex--item mb2 fs-subheading fc-black-800">
+                                Machine Learning Facilitator (Google AI, Explore ML)
+                            </h3>
+
+                                <h4 class="flex--item mb8 fs-body2 anonymizable"><a href="https://google.com/" rel="nofollow" title="Google" target="_blank">Google</a></h4>
+
+                            <div class="flex--item mb8">
+                                    <span class="fs-caption fc-black-700">Jul 2019 &#x2192; Sep 2019</span>
+                                        <span class="fs-caption fc-black-500">(3 months)</span>
+                            </div>
+
+                        <div class="mtn8 mb16">
+                                <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">machine-learning</span>
+    </div>
+
+                        </div>
+
+                            <div class="fs-body1 fc-black-700">
+                                <p>Taught machine learning to hundreds of university students.</p>
+
+                            </div>
+                    </div>
+                </article>
+                <article class="d-flex gs16" id="Experience-10575909">
+
+                    <div class="flex--item">
+                                <div class="g-center cv-logo-blank js-logo-blank dno"><svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg></div>
+                            <div class="g-center cv-logo">
+                                <img src="https://i.stack.imgur.com/Fs3Yz.png" role="img" class="cv-image js-list-img anonymizable" title="Springworks" onerror="handleListImageError(this)" data-list-id="453313"/>
+                            </div>
+                    </div>
+
+                    <div class="flex--item fl1 fd-column">
+                            <h3 class="flex--item mb2 fs-subheading fc-black-800">
+                                Machine Learning Intern
+                            </h3>
+
+                                <h4 class="flex--item mb8 fs-body2 anonymizable"><a href="https://www.springworks.in" rel="nofollow" title="Springworks" target="_blank">Springworks</a></h4>
+
+                            <div class="flex--item mb8">
+                                    <span class="fs-caption fc-black-700">May 2019 &#x2192; Jul 2019</span>
+                                        <span class="fs-caption fc-black-500">(3 months)</span>
+                            </div>
+
+                        <div class="mtn8 mb16">
+                                <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">python</span>
+            <span class="flex--item s-tag">python-3.x</span>
+            <span class="flex--item s-tag">nlp</span>
+            <span class="flex--item s-tag">c&#x2B;&#x2B;</span>
+            <span class="flex--item s-tag">machine-learning</span>
+    </div>
+
+                        </div>
+
+                            <div class="fs-body1 fc-black-700">
+                                <p>Developed deep learning algorithms for intelligent resume parsing and wrote REST APIs for ethical/criminal background checks.</p>
+
+                            </div>
+                    </div>
+                </article>
+                <article class="d-flex gs16 js-hidden-item d-none" id="Experience-7040842">
+
+                    <div class="flex--item">
+                                <div class="g-center cv-logo-blank js-logo-blank dno"><svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg></div>
+                            <div class="g-center cv-logo">
+                                <img src="https://i.stack.imgur.com/oRj00.png" role="img" class="cv-image js-list-img anonymizable" title="Zykrr" onerror="handleListImageError(this)" data-list-id="414380"/>
+                            </div>
+                    </div>
+
+                    <div class="flex--item fl1 fd-column">
+                            <h3 class="flex--item mb2 fs-subheading fc-black-800">
+                                Software Engineering Intern
+                            </h3>
+
+                                <h4 class="flex--item mb8 fs-body2 anonymizable"><a href="https://zykrr.com/" rel="nofollow" title="Zykrr" target="_blank">Zykrr</a></h4>
+
+                            <div class="flex--item mb8">
+                                    <span class="fs-caption fc-black-700">Jan 2019 &#x2192; Mar 2019</span>
+                                        <span class="fs-caption fc-black-500">(2 months)</span>
+                            </div>
+
+                        <div class="mtn8 mb16">
+                                <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">python-3.x</span>
+            <span class="flex--item s-tag">c&#x2B;&#x2B;11</span>
+            <span class="flex--item s-tag">c&#x2B;&#x2B;14</span>
+            <span class="flex--item s-tag">deep-learning</span>
+            <span class="flex--item s-tag">nlp</span>
+            <span class="flex--item s-tag">rest</span>
+            <span class="flex--item s-tag">flask</span>
+    </div>
+
+                        </div>
+
+                            <div class="fs-body1 fc-black-700">
+                                <p>Worked with efficient sentiment analysis and topic extraction algorithms on large scale pipelines.</p>
+
+                            </div>
+                    </div>
+                </article>
+                <article class="d-flex gs16 last js-hidden-item d-none" id="Experience-7042771">
+
+                    <div class="flex--item">
+                                <div class="g-center cv-logo-blank js-logo-blank dno"><svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg></div>
+                            <div class="g-center cv-logo">
+                                <img src="https://crunchbase-production-res.cloudinary.com/image/upload/h_96/v1457730264/x9mn79xvbftzkfjivtb9.png" role="img" class="cv-image js-list-img anonymizable" title="PayU" onerror="handleListImageError(this)" data-list-id="217681"/>
+                            </div>
+                    </div>
+
+                    <div class="flex--item fl1 fd-column">
+                            <h3 class="flex--item mb2 fs-subheading fc-black-800">
+                                Intern
+                            </h3>
+
+                                <h4 class="flex--item mb8 fs-body2 anonymizable"><a href="http://www.payu.com/" rel="nofollow" title="PayU" target="_blank">PayU</a></h4>
+
+                            <div class="flex--item mb8">
+                                    <span class="fs-caption fc-black-700">May 2017 &#x2192; Jul 2017</span>
+                                        <span class="fs-caption fc-black-500">(3 months)</span>
+                            </div>
+
+                        <div class="mtn8 mb16">
+                            
+                        </div>
+
+                    </div>
+                </article>
+
+                <!-- <a class="js-toggle-more" data-more-text="View more experience" data-fewer-text="View less experience">View more experience</a> -->
         </div>
-        <div class="entry">
-          <div class="title big">2019, January</div>
-          <div class="body">
-            <p>Left hometown for my first internship at Zykrr in Delhi, where I met a very small but very talented team and got to learn a lot on Data Science and Software Engineering.</p>
-          </div>
+    </section>
+
+<script>
+    //this file is also rendered in Talent, which doesn't have access to StackExchange
+    function handleListImageError(target) {
+        if (typeof StackExchange !== 'undefined') {
+            StackExchange.user.handleListImageError(target);
+        }
+        else {
+            $(target).parent('div').hide().prev('.js-logo-blank').removeClass('dno');
+        }
+    }
+</script>
+        
+    <section class="mt0 mb24" id="cv-Education">
+        <header class="d-flex mb16">
+            <h2 class="fs-category has-border">
+Education            </h2>
+        </header>
+        <div class="">
+                <article class="d-flex gs16 first last" id="Education-7041218">
+
+                    <div class="flex--item">
+                            <div class="g-center cv-logo">
+                                <img src="https://i.stack.imgur.com/dsQ8b.jpg" role="img" class="cv-image" title="Udacity" onerror="handleListImageError(this)" data-list-id="0"/>
+                            </div>
+                    </div>
+
+                    <div class="flex--item fl1 fd-column">
+                            <h3 class="flex--item mb2 fs-subheading fc-black-800">
+                                Scholar
+                            </h3>
+
+                                <h4 class="flex--item mb8 fs-body2 fc-black-500">Udacity</h4>
+
+                            <div class="flex--item mb8">
+                                    <span class="fs-caption fc-black-700">May 2019 &#x2192; 2020</span>
+                            </div>
+
+                        <div class="mtn8 mb16">
+                                <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">deep-learning</span>
+            <span class="flex--item s-tag">machine-learning</span>
+            <span class="flex--item s-tag">artificial-intelligence</span>
+            <span class="flex--item s-tag">encryption</span>
+    </div>
+
+                        </div>
+
+                    </div>
+                </article>
+
         </div>
-      </div>
-    </body>
-  </html>
+    </section>
+
+<script>
+    //this file is also rendered in Talent, which doesn't have access to StackExchange
+    function handleListImageError(target) {
+        if (typeof StackExchange !== 'undefined') {
+            StackExchange.user.handleListImageError(target);
+        }
+        else {
+            $(target).parent('div').hide().prev('.js-logo-blank').removeClass('dno');
+        }
+    }
+</script>
+        
+
+<script>
+    //this file is also rendered in Talent, which doesn't have access to StackExchange
+    function handleListImageError(target) {
+        if (typeof StackExchange !== 'undefined') {
+            StackExchange.user.handleListImageError(target);
+        }
+        else {
+            $(target).parent('div').hide().prev('.js-logo-blank').removeClass('dno');
+        }
+    }
+</script>
+        
+
+<script>
+    //this file is also rendered in Talent, which doesn't have access to StackExchange
+    function handleListImageError(target) {
+        if (typeof StackExchange !== 'undefined') {
+            StackExchange.user.handleListImageError(target);
+        }
+        else {
+            $(target).parent('div').hide().prev('.js-logo-blank').removeClass('dno');
+        }
+    }
+</script>
+        
+
+<script>
+    //this file is also rendered in Talent, which doesn't have access to StackExchange
+    function handleListImageError(target) {
+        if (typeof StackExchange !== 'undefined') {
+            StackExchange.user.handleListImageError(target);
+        }
+        else {
+            $(target).parent('div').hide().prev('.js-logo-blank').removeClass('dno');
+        }
+    }
+</script>
+        
+                <a id="stack"></a>
+        <section class="mt0 mb24">
+            <header class="d-flex mb16">
+                <h2 class="fs-category has-border">
+Stack Exchange                </h2>
+            </header>
+
+            <div id="stackexchange-accounts" class="">
+
+                    <div class="d-flex mb12">
+                        <div class="flex--item4"><strong class="fs-body1 fc-black-800">Community Name</strong></div>
+                        <div class="flex--item"><strong class="fs-body1 fc-black-800">Reputation</strong></div>
+                    </div>
+
+                <div class="">
+                        <div class="d-flex mb8">
+                            <div class="flex--item4 d-flex mb0">
+                                <span class="flex--item fl-none ai-center cv-se-list-logo">
+                                    <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div>
+                                </span>
+                                <span class="flex--item ai-center">
+                                    <a href="https://stackoverflow.com/users/6859369/" class="fs-body2" target="_blank">Stack Overflow</a>
+                                </span>
+                            </div>
+                            <div class="flex--item">
+                                <div class="fs-body1 fc-black-500">518</div>
+                            </div>
+                        </div>
+                        <div class="d-flex mb8">
+                            <div class="flex--item4 d-flex mb0">
+                                <span class="flex--item fl-none ai-center cv-se-list-logo">
+                                    <div class="favicon favicon-datascience" title="Data Science"></div>
+                                </span>
+                                <span class="flex--item ai-center">
+                                    <a href="https://datascience.stackexchange.com/users/66108/" class="fs-body2" target="_blank">Data Science</a>
+                                </span>
+                            </div>
+                            <div class="flex--item">
+                                <div class="fs-body1 fc-black-500">131</div>
+                            </div>
+                        </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        
+
+<script>
+    //this file is also rendered in Talent, which doesn't have access to StackExchange
+    function handleListImageError(target) {
+        if (typeof StackExchange !== 'undefined') {
+            StackExchange.user.handleListImageError(target);
+        }
+        else {
+            $(target).parent('div').hide().prev('.js-logo-blank').removeClass('dno');
+        }
+    }
+</script>
+        
+                <section class="mt0 mb24">
+            <header class="d-flex mb16">
+                <h2 class="fs-category has-border">Tools</h2>
+            </header>
+            <div class="d-flex fd-column">
+                    <div class="fs-body1 fc-black-500 flex--item mb4">
+                        <strong class="fc-black-700">First computer</strong>
+                        An assembled system with just 2 Gigs of RAM :)
+                    </div>
+                    <div class="fs-body1 fc-black-500 flex--item">
+                        <strong class="fc-black-700">Favorite editor</strong>
+                        Vim, Sublime, VS Code, IntelliJ
+                    </div>
+            </div>
+        </section>
+
+        
+    <section class="mt0 mb24" id="cv-Others">
+        <header class="d-flex mb16">
+            <h2 class="fs-category has-border">
+Others            </h2>
+        </header>
+        <div class="">
+                <article class="d-flex gs16 first" id="Others-10588909">
+
+                    <div class="flex--item">
+                            <div class="g-center cv-logo">
+                                <img src="https://i.stack.imgur.com/m2fGe.png" role="img" class="cv-image" title="Publications" onerror="handleListImageError(this)" data-list-id="0"/>
+                            </div>
+                    </div>
+
+                    <div class="flex--item fl1 fd-column">
+                            <h3 class="flex--item mb2 fs-subheading">
+                                <a href="https://dl.acm.org/doi/10.1145/3491003.3493236" rel="nofollow" title="Published: Social Media for Post-Disaster Relief: Mapping Needs and Availabilities to UNOCHA Resource Classes" target="_blank">Published: Social Media for Post-Disaster Relief: Mapping Needs and Availabilities to UNOCHA Resource Classes</a>
+                            </h3>
+
+                                <h4 class="flex--item mb8 fs-body2 fc-black-500">Publications</h4>
+
+                            <div class="flex--item mb8">
+                                    <span class="fs-caption fc-black-700">Jan 2022</span>
+                            </div>
+
+                        <div class="mtn8 mb16">
+                                <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">machine-learning</span>
+            <span class="flex--item s-tag">nlp</span>
+            <span class="flex--item s-tag">deep-learning</span>
+    </div>
+
+                        </div>
+
+                    </div>
+                </article>
+                <article class="d-flex gs16 last" id="Others-10575862">
+
+                    <div class="flex--item">
+                            <div class="g-center cv-logo">
+                                <img src="https://i.stack.imgur.com/ZPOK2.jpg" role="img" class="cv-image" title="Publications" onerror="handleListImageError(this)" data-list-id="0"/>
+                            </div>
+                    </div>
+
+                    <div class="flex--item fl1 fd-column">
+                            <h3 class="flex--item mb2 fs-subheading">
+                                <a href="https://link.springer.com/article/10.1007/s40031-021-00663-w" rel="nofollow" title="Published: Edge-based Human Activity Recognition System for Smart Healthcare" target="_blank">Published: Edge-based Human Activity Recognition System for Smart Healthcare</a>
+                            </h3>
+
+                                <h4 class="flex--item mb8 fs-body2 fc-black-500">Publications</h4>
+
+                            <div class="flex--item mb8">
+                                    <span class="fs-caption fc-black-700">Oct 2021</span>
+                            </div>
+
+                        <div class="mtn8 mb16">
+                                <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">machine-learning</span>
+            <span class="flex--item s-tag">deep-learning</span>
+    </div>
+
+                        </div>
+
+                    </div>
+                </article>
+
+        </div>
+    </section>
+
+<script>
+    //this file is also rendered in Talent, which doesn't have access to StackExchange
+    function handleListImageError(target) {
+        if (typeof StackExchange !== 'undefined') {
+            StackExchange.user.handleListImageError(target);
+        }
+        else {
+            $(target).parent('div').hide().prev('.js-logo-blank').removeClass('dno');
+        }
+    }
+</script>
+
+        <div class="footer-notice">
+            Company data powered by <a href="http://www.crunchbase.com" rel="nofollow" target="_blank" title="CrunchBase"></a>
+        </div>
+    </div>
+
+</div>
+
+    <script>
+        /// <reference path="../../../../Content/Js/third-party/jquery-1.11.0-vsdoc.js"/>
+        StackExchange.ready(function () {
+            if (StackExchange.user) {
+                StackExchange.user.initTimeline();
+                StackExchange.user.initCvView();
+                initTagRenderer("".split(" "), "".split(" "));
+            }
+        });
+    </script>
+
+
+    </div>
+
+    <div class="timeline-print d-none print:d-block">
+        
+
+<div class="wrapper">
+    <div class="col-full header">
+        <div class="name">
+            <h1>Amitrajit Bose</h1>
+        </div>
+        <div class="personal-info" toggle-section="personal" toggle-section-title="Personal Info">
+ <span class="address" toggle-id="location" toggle-description="Address">India</span>  <span class="website" toggle-id="website" toggle-description="Web Site Url"><a href="http://amitrajitbose.github.io">http://amitrajitbose.github.io</a></span>  <span class="github" toggle-id="github" toggle-description="Github"><a href="https://github.com/amitrajitbose">https://github.com/amitrajitbose</a></span>         </div>
+    </div>
+
+        <div class="col-full statement" toggle-section="personal" toggle-section-title="Personal Info">
+            <blockquote toggle-id="personal-statement" toggle-description="Personal Statement">
+                <p>I write novels with code. :)</p>
+
+            </blockquote>
+        </div>
+
+        <div class="col-full skills" toggle-section="technical" toggle-section-title="Technical Skills">
+            <div class="col-left">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="col-right">
+                <table>
+                        <tr toggle-id="likes" toggle-description="Likes">
+                            <td class="tags">Likes:</td>
+                            <td>python-3.x python machine-learning nlp java algorithm software-design data-structures spring spring-boot apache-kafka apache-spark distributed-system</td>
+                        </tr>
+                        <tr toggle-id="dislikes" toggle-description="Dislikes">
+                            <td class="tags">Dislikes:</td>
+                            <td>ios android</td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+
+        
+    <div class="col-full">
+        <div class="col-left">
+            <h2>Experience</h2>
+        </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Jul 2021 &#x2192; Current
+                        </em>
+                    </span>
+                    <strong>Software Engineer</strong>
+&ndash;                            <a href="http://www.flipkart.com" class="title">
+                                Flipkart
+                            </a>
+                        <div>java, hive, apache-spark, bigdata, mysql, backend, hadoop, hql</div>
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Jul 2020 &#x2192; Jun 2021
+                        </em>
+                    </span>
+                    <strong>Software Engineer</strong>
+&ndash;                            <a href="http://global.rakuten.com/corp" class="title">
+                                Rakuten
+                            </a>
+                        <div>java, reactjs, spring-boot, spring-security</div>
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Jan 2020 &#x2192; Jun 2020
+                        </em>
+                    </span>
+                    <strong>Software Engineering Intern</strong>
+&ndash;                            <a href="http://global.rakuten.com/corp" class="title">
+                                Rakuten
+                            </a>
+                        <div>java, backend, elastic-stack, mysql</div>
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Jul 2019 &#x2192; Sep 2019
+                        </em>
+                    </span>
+                    <strong>Machine Learning Facilitator (Google AI, Explore ML)</strong>
+&ndash;                            <a href="https://google.com/" class="title">
+                                Google
+                            </a>
+                        <div>machine-learning</div>
+                </div>
+                <div class="description">
+                    <p>Taught machine learning to hundreds of university students.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            May 2019 &#x2192; Jul 2019
+                        </em>
+                    </span>
+                    <strong>Machine Learning Intern</strong>
+&ndash;                            <a href="https://www.springworks.in" class="title">
+                                Springworks
+                            </a>
+                        <div>python, python-3.x, nlp, c&#x2B;&#x2B;, machine-learning</div>
+                </div>
+                <div class="description">
+                    <p>Developed deep learning algorithms for intelligent resume parsing and wrote REST APIs for ethical/criminal background checks.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Jan 2019 &#x2192; Mar 2019
+                        </em>
+                    </span>
+                    <strong>Software Engineering Intern</strong>
+&ndash;                            <a href="https://zykrr.com/" class="title">
+                                Zykrr
+                            </a>
+                        <div>python-3.x, c&#x2B;&#x2B;11, c&#x2B;&#x2B;14, deep-learning, nlp, rest, flask</div>
+                </div>
+                <div class="description">
+                    <p>Worked with efficient sentiment analysis and topic extraction algorithms on large scale pipelines.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            May 2017 &#x2192; Jul 2017
+                        </em>
+                    </span>
+                    <strong>Intern</strong>
+&ndash;                            <a href="http://www.payu.com/" class="title">
+                                PayU
+                            </a>
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+    </div>
+
+        
+    <div class="col-full">
+        <div class="col-left">
+            <h2>Education</h2>
+        </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            May 2019 &#x2192; 2020
+                        </em>
+                    </span>
+                    <strong>Scholar</strong>
+&ndash;                            <span class="title">
+                                Udacity
+                            </span>
+                        <div>deep-learning, machine-learning, artificial-intelligence, encryption</div>
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+    </div>
+
+        
+
+        
+    <div class="col-full">
+        <div class="col-left">
+            <h2>Projects &amp; Interests</h2>
+        </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Sep 2016 &#x2192; Current
+                        </em>
+                    </span>
+                    <strong>Stack Overflow</strong>
+&ndash;                        <a class="title" href="https://stackoverflow.com/users/6859369/amitrajit-bose">
+                            https://stackoverflow.com/users/6859369/amitrajit-bose
+                        </a>
+                </div>
+                <div class="description">
+                    Written 13 answers.  Active in python.
+                </div>
+            </div>
+    </div>
+
+        
+
+        
+
+        
+    <div class="col-full">
+        <div class="col-left">
+            <h2>Others</h2>
+        </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Jan 2022
+                        </em>
+                    </span>
+                    <strong>Published: Social Media for Post-Disaster Relief: Mapping Needs and Availabilities to UNOCHA Resource Classes</strong>
+&ndash;                            <span class="title">
+                                Publications
+                            </span>
+                        <div>machine-learning, nlp, deep-learning</div>
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Oct 2021
+                        </em>
+                    </span>
+                    <strong>Published: Edge-based Human Activity Recognition System for Smart Healthcare</strong>
+&ndash;                            <span class="title">
+                                Publications
+                            </span>
+                        <div>machine-learning, deep-learning</div>
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+    </div>
+
+
+
+
+
+        <div class="col-full" toggle-section="tools" toggle-section-title="Tools">
+            <div class="col-left">
+                <h2>Tools</h2>
+            </div>
+            <div class="col-right">
+                <table>
+                        <tr toggle-id="first-computer" toggle-description="First Computer">
+                            <td class="tools">First Computer:</td>
+                            <td>An assembled system with just 2 Gigs of RAM :)</td>
+                        </tr>
+                        <tr toggle-id="favorite-editor" toggle-description="Favorite Editor">
+                            <td class="tools">Favorite Editor:</td>
+                            <td>Vim, Sublime, VS Code, IntelliJ</td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+</div>
+
+    </div>
+</body>
+</html>
